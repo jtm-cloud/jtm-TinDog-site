@@ -123,6 +123,24 @@ p {
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+    width: 10%;
+    margin: 20px 20px 30px;
+}
+
+/* Pricing */
+
+.pricing-heading {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.card-button {
+    vertical-align: bottom;
+}
+
+/* Call to Action */
+
+.call-button-container {
+    text-align: center;
+    margin: 100px 0;
 }
