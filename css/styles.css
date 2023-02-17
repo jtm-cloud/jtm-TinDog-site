@@ -3,7 +3,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 0 7%;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.5rem;
 }
 
@@ -30,10 +30,12 @@ p {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    padding: 0 15%;
 }
 
-.title-container-fluid {
-    padding-bottom: 0;
+
+.title-container {
+    padding: 3% 0 0;
 }
 
 /* Navigation Bar */
@@ -66,27 +68,23 @@ p {
 
 /* Title Image */
 
-.title-row {
-    max-height: 450px;
-    overflow: hidden;
-}
-
 .title-image {
-    width: 45%;
+    width: 60%;
     transform: rotate(25deg);
-    position: relative;
-    bottom: -20px;
 }
 
 /* Features Section*/
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon {
@@ -129,15 +127,14 @@ p {
 
 /* Pricing */
 
-.pricing-heading {
+#pricing {
+    padding: 100px;
     text-align: center;
-    margin: 100px 0;
 }
 
-.card-button {
-    vertical-align: bottom;
+.pricing-column {
+    padding: 3% 2%;
 }
-
 /* Call to Action */
 
 .call-button-container {

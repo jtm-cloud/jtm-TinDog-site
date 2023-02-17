@@ -24,7 +24,7 @@
 <body>
   
   <section id="title">
-    <div class="container-fluid title-container-fluid">
+    <div class="container-fluid">
       
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -56,7 +56,7 @@
       
       <!-- Title -->
       
-      <div class="row title-row">
+      <div class="row title-container">
         
         <div class="col-lg-6">
           <h1 class="intro-message">Ijo jikkin an kidru bwebwenato.</h1>
@@ -64,7 +64,7 @@
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
         
-        <div class="col-lg-6" id="title-image-container">
+        <div class="col-lg-6">
           <img class="title-image" src="images/iphone.png" alt="iphone-mockup">
         </div>
       </div>
@@ -151,56 +151,63 @@
   
   <section id="pricing">
     
-    <div class="pricing-heading">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for you and your dog.</p>
-    </div>
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for you and your dog.</p>
     
-    <div class="card-deck mb-3 text-center">
-      <div class="card mb-4 box-shadow card-box">
-        <div class="card-header">
-          <h3>Chihuahua</h3>
-        </div>
-        <div class="card-body">
-          <h2>Free</h2>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>5 Matches Per Day</li>
-            <li>10 Messages Per Day</li>
-            <li>Unlimited App Usage</li>
-            <li>.</li>
-          </ul>
-          <button type="button" class="card-button btn btn-lg btn-block btn-outline-primary">Sign Up</button>
-        </div>
-      </div>
-      <div class="card mb-4 box-shadow card-box">
-        <div class="card-header">
-          <h3>Labrador</h3>
-        </div>
-        <div class="card-body">
-          <h2 class="card-title pricing-card-title">$49 <small class="text-muted">/ mo</small></h2>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>Unlimited Matches</li>
-            <li>Unlimited Messages</li>
-            <li>Unlimited App Usage</li>
-            <li>.</li>
-          </ul>
-          <button type="button" class="card-button btn btn-lg btn-block btn-primary">Sign Up</button>
+    <div class="row">
+      
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button>
+          </div>
+          
         </div>
       </div>
-      <div class="card mb-4 box-shadow card-box">
-        <div class="card-header">
-          <h3>Mastiff</h3>
+      
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+          </div>
+          
         </div>
-        <div class="card-body">
-          <h2 class="card-title pricing-card-title">$99 <small class="text-muted">/ mo</small></h2>
-          <ul class="list-unstyled mt-3 mb-4">
-            <li>Priority Listing</li>
-            <li>Unlimited Matches</li>
-            <li>Unlimited Messages</li>
-            <li>Unlimited App Usage</li>
-          </ul>
-          <button type="button" class="card-button btn btn-lg btn-block btn-primary">Sign Up</button>
-        </div>
+      
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            
+            <div class="card-header">
+              <h3>Labrador</h3>
+            </div>
+            
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Priority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+            </div>
+            
+          </div>
       </div>
     </div>
     
